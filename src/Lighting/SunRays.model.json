@@ -1,0 +1,8 @@
+{
+  "name": null,
+  "className": "SunRaysEffect",
+  "properties": {
+    "Intensity": 0.019999999552965164,
+    "Spread": 0.15000000596046448
+  }
+}
