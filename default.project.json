@@ -15,9 +15,6 @@
       "$path": "src/ReplicatedFirst"
     },
     "ReplicatedStorage": {
-      "Packages": {
-        "$path": "Packages"
-      },
       "$ignoreUnknownInstances": true,
       "$path": "src/ReplicatedStorage"
     },
