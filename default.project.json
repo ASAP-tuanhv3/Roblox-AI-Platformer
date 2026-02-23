@@ -3,10 +3,51 @@
   "tree": {
     "$className": "DataModel",
     "Lighting": {
+      "$properties": {
+        "Ambient": [
+          0.23137255012989044,
+          0.23137255012989044,
+          0.23137255012989044
+        ],
+        "Brightness": 2.5,
+        "ColorShift_Top": [
+          0.18431372940540314,
+          0.21960784494876862,
+          0.22745098173618317
+        ],
+        "EnvironmentDiffuseScale": 0.699999988079071,
+        "EnvironmentSpecularScale": 1.0,
+        "ExtendLightRangeTo120": {
+          "Enum": 0
+        },
+        "FogColor": [
+          0.7529412508010864,
+          0.7529412508010864,
+          0.7529412508010864
+        ],
+        "GeographicLatitude": 65.0,
+        "GlobalShadows": true,
+        "OutdoorAmbient": [
+          0.23137255012989044,
+          0.23137255012989044,
+          0.23137255012989044
+        ],
+        "Outlines": false,
+        "ShadowSoftness": 0.03999999910593033,
+        "Technology": "Future",
+        "TimeOfDay": "15:00:00"
+      },
+      "$attributes": {
+        "UseCurrentLighting": true
+      },
       "$ignoreUnknownInstances": true,
       "$path": "src/Lighting"
     },
     "MaterialService": {
+      "$properties": {
+        "BrickName": "MetalPanels",
+        "Use2022MaterialsXml": true
+      },
       "$ignoreUnknownInstances": true,
       "$path": "src/MaterialService"
     },
@@ -27,11 +68,19 @@
       "$path": "src/ServerStorage"
     },
     "SoundService": {
+      "$properties": {
+        "AcousticSimulationEnabled": {
+          "Bool": false
+        },
+        "DefaultListenerLocation": "None",
+        "RespectFilteringEnabled": true
+      },
       "$ignoreUnknownInstances": true,
       "$path": "src/SoundService"
     },
     "StarterGui": {
       "$properties": {
+        "ScreenOrientation": "Sensor",
         "ShowDevelopmentGui": false
       },
       "$ignoreUnknownInstances": true,
@@ -42,12 +91,97 @@
       "$path": "src/StarterPack"
     },
     "StarterPlayer": {
+      "StarterCharacterScripts": {
+        "$ignoreUnknownInstances": true,
+        "$path": "src/StarterPlayer/StarterCharacterScripts"
+      },
       "StarterPlayerScripts": {
         "$ignoreUnknownInstances": true,
         "$path": "src/StarterPlayer/StarterPlayerScripts"
+      },
+      "$properties": {
+        "CameraMaxZoomDistance": 128.0,
+        "CameraMinZoomDistance": 8.0,
+        "CharacterBreakJointsOnDeath": {
+          "Bool": true
+        },
+        "CharacterJumpHeight": 8.0,
+        "CharacterUseJumpPower": false,
+        "CharacterWalkSpeed": 22.0,
+        "ClassicDeath": {
+          "Bool": true
+        },
+        "CreateDefaultPlayerModule": {
+          "Bool": true
+        },
+        "EnableMouseLockOption": false
       }
     },
     "Workspace": {
+      "$properties": {
+        "AirTurbulenceIntensity": {
+          "Float32": 0.0
+        },
+        "AuthorityMode": {
+          "Enum": 1
+        },
+        "Gravity": 160.0,
+        "LuauTypeCheckMode": {
+          "Enum": 0
+        },
+        "NextGenerationReplication": {
+          "Enum": 0
+        },
+        "PlayerCharacterDestroyBehavior": "Enabled",
+        "PlayerScriptsUseInputActionSystem": {
+          "Enum": 0
+        },
+        "RolloutValidationBinaryExpectedValue": {
+          "BinaryString": ""
+        },
+        "RolloutValidationBinaryString": {
+          "BinaryString": ""
+        },
+        "SignalBehavior": "Deferred",
+        "StreamOutBehavior": "Opportunistic",
+        "StreamingEnabled": true,
+        "StreamingIntegrityMode": "PauseOutsideLoadedArea",
+        "UseFixedSimulation": {
+          "Enum": 0
+        },
+        "UseNewLuauTypeSolver": {
+          "Enum": 1
+        },
+        "WorldPivotData": {
+          "OptionalCFrame": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "orientation": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          }
+        }
+      },
+      "$attributes": {
+        "Rojo_Target_CurrentCamera": "06e66028a316f40009ad9f2f000008b8"
+      },
       "$path": "src/Workspace"
     }
   }
