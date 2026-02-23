@@ -3,65 +3,12 @@
   "tree": {
     "$className": "DataModel",
     "Lighting": {
-      "$className": "Lighting",
-      "Atmosphere": {
-        "$path": "src/lighting/Atmosphere.rbxmx"
-      },
-      "Bloom": {
-        "$path": "src/lighting/Bloom.rbxmx"
-      },
-      "ColorCorrection": {
-        "$path": "src/lighting/ColorCorrection.rbxmx"
-      },
-      "Sky": {
-        "$path": "src/lighting/Sky.rbxmx"
-      },
-      "SunRays": {
-        "$path": "src/lighting/SunRays.rbxmx"
-      },
-      "$properties": {
-        "Ambient": [
-          0.7059999704360962,
-          0.8240000009536743,
-          1.0
-        ],
-        "Brightness": 1.5,
-        "ColorShift_Bottom": [
-          0.0,
-          0.0,
-          0.0
-        ],
-        "ColorShift_Top": [
-          0.0,
-          0.0,
-          0.0
-        ],
-        "EnvironmentDiffuseScale": 0.800000011920929,
-        "EnvironmentSpecularScale": 1.0,
-        "ExposureCompensation": 0.0,
-        "ExtendLightRangeTo120": {
-          "Enum": 0
-        },
-        "GeographicLatitude": 24.0,
-        "GlobalShadows": true,
-        "LightingStyle": "Soft",
-        "OutdoorAmbient": [
-          0.5490000247955322,
-          0.7450000047683716,
-          1.0
-        ],
-        "PrioritizeLightingQuality": false,
-        "ShadowSoftness": 0.0,
-        "Technology": "Voxel",
-        "TimeOfDay": "12:00:00"
-      }
+      "$ignoreUnknownInstances": true,
+      "$path": "src/Lighting"
     },
     "MaterialService": {
-      "$properties": {
-        "Use2022MaterialsXml": true
-      },
       "$ignoreUnknownInstances": true,
-      "$path": "src/material"
+      "$path": "src/MaterialService"
     },
     "ReplicatedFirst": {
       "$ignoreUnknownInstances": true,
@@ -104,56 +51,7 @@
       }
     },
     "Workspace": {
-      "$className": "Workspace",
-      "Temps": {
-        "$path": "src/workspace/temps"
-      },
-      "Terrain": {
-        "$path": "src/workspace/Terrain.rbxm"
-      },
-      "Worlds": {
-        "$path": "src/workspace/worlds"
-      },
-      "$properties": {
-        "AirTurbulenceIntensity": {
-          "Float32": 0.0
-        },
-        "AuthorityMode": {
-          "Enum": 1
-        },
-        "CollisionGroupData": {
-          "BinaryString": "AQUABO////8HRGVmYXVsdAEE+f///wRGaXNoAgT5////CkNoYXJhY3RlcnMDBO////8QU3R1ZGlvU2VsZWN0YWJsZQQE9v///xlQbHVnaW5fVW5zZWxlY3RhYmxlX0dyb3Vw"
-        },
-        "LuauTypeCheckMode": {
-          "Enum": 0
-        },
-        "NextGenerationReplication": {
-          "Enum": 0
-        },
-        "PlayerScriptsUseInputActionSystem": {
-          "Enum": 0
-        },
-        "UseFixedSimulation": {
-          "Enum": 0
-        },
-        "UseImprovedModelLod": {
-          "Enum": 0
-        },
-        "UseNewLuauTypeSolver": {
-          "Enum": 1
-        }
-      },
-      "$attributes": {
-        "LogLevel": "Warning",
-        "LogLevelClient": "Warning"
-      }
-    }
-  },
-  "syncbackRules": {
-    "ignoreProperties": {
-      "Workspace": [
-        "Rojo_Target_CurrentCamera"
-      ]
+      "$path": "src/Workspace"
     }
   }
 }
